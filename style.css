@@ -1,7 +1,7 @@
-*{
- 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+    font-family: 'Lucida Sans';
     box-sizing: border-box;
+
 }
 
 .container {
@@ -9,14 +9,11 @@
     max-width: 1180px;
     margin: auto; /* center */
 }
-@media screen and (max-width: 800px) {
-    .container {
-        max-width: 780px;
-    }
-}
+
 .row {
     margin-top: 50px;
 }
+
 .row::after {
     display: table;
     clear: both;
@@ -24,10 +21,11 @@
 }
 
 .col {
-    width: 100%;
+    width: 33%;
     float: left;
     padding: 10px;
 }
+
 .isi {
     border: 1px solid gray;
     padding: 30px;
@@ -37,3 +35,13 @@
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 780px;
+    }
+
+    .col {
+        width: 100%;
+    }
+}

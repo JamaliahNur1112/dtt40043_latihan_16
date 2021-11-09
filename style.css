@@ -33,6 +33,29 @@
     font-weight: bold;
     font-size: 14pt;
     cursor: pointer;
+   
+}
+.gambar-pay{
+    background-image: url('images/paybill.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+    pointer-events: auto;
+
+}
+.gambar-reload{
+    background-image: url('images/reload.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.gambar-internet{
+    background-image: url('images/addinternet.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
 
 
